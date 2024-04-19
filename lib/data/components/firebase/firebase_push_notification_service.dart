@@ -7,7 +7,6 @@
   3) Listen for system tray notification click-throughs
   4) (android only) Listen for incoming notifications when app is in background, displaying message when app returns to foreground (if notificatio click-through didn't occur)
   5) Optional badge count handling, if required (more work required per project for this)
-  6) Susbscribe to, and unsubscribe from, topics.
 */
 
 import 'dart:async';
