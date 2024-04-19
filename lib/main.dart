@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'data/components/firebase/firebase_options.dart';
+import 'data/components/firebase/firebase_options.dart';  //this file removed from example as it contains important keys
 import 'data/components/firebase/firebase_push_notification_service.dart';
 
 
