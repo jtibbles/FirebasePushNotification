@@ -42,10 +42,11 @@ Future<void> main() async{
 
     //init the background message handler (android only)
     FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
-    
-    runApp(const MyApp());
 
-  //-----------------------------
+  //----------------------------- 
+    
+  runApp(const MyApp());
+  
 }
 
 class MyApp extends StatelessWidget {
